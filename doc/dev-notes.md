@@ -1,13 +1,3 @@
----
-# Infos
-title: Developer Notebook
-author: Marco Koch
-rights: © 2020 Marco Koch
-language: en
-abstract: This is my personal developer notebook. This can be used together with an ebook reader.
-date: 2020-07-01
----
-
 # Developer Notebook
 
 This is my Developer Notebook!

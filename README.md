@@ -14,7 +14,7 @@ These daily development notes are published as a small ebook that can be importe
 Clone this GIT repository. To create the ebook you can executed the attached `compile.sh` shell script or execute the following comnmand line.
 
 ````shell
-pandoc -s -o dist/dev-notes.epub doc/dev-notes.md --toc --toc-depth=3
+pandoc -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
 ````
 
 Afterwards the `dev-notes.epub` will be located in the `dist` subfolder.
