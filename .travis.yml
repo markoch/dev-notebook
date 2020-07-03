@@ -1,1 +1,10 @@
+matrix:
+    include:
+        # macOS generic
+        - os: osx
+          language: generic
+          before_install:
+              - brew update
+              - brew install pandoc
+os: osx
 script: make
