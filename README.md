@@ -8,9 +8,9 @@ Developer Notebook
 <a href="https://travis-ci.org/markoch/dev-notebook" title="Build Status"><img src="https://travis-ci.org/markoch/dev-notebook.svg?branch=master"></a>
 </p>
 
-The personal development notes are written in Markdown format and are converted to an EPUB file that can be imported into your eBook reader. 
+The development notes are written in Markdown format and converted to an EPUB file. Your eBook reader or viewer app can import this converted EPUB file.
 
-For best experience disable the auto shutdown feature of your eBook Reader and place it next to your keyboard to always view your development notes.
+For the best experience, disable the auto-shutdown feature of your eBook Reader and place it next to your keyboard to always few development notes.
 
 ![Ebook Reader](/doc/images/ebook-keyboard.jpg)
 *Photo by Megafilm on Freepik*
@@ -24,13 +24,13 @@ For best experience disable the auto shutdown feature of your eBook Reader and p
 
 ### Getting Started
 
-Clone this GIT repository. To create the ebook you can executed `make` or execute the following comnmand line.
+Clone this GIT repository. To create the eBook, you can execute `make` or the following command line:
 
 ````shell
 pandoc -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
 ````
 
-Afterwards the `dev-notes.epub` will be located in the `dist` subfolder.
+The `dist` folder will then contain the converted `dev-notes.epub` file.
 
 ### Built With
 
