@@ -10,7 +10,7 @@ Developer Notebook
 
 The development notes are written in Markdown format and converted to an EPUB file. Your eBook reader or viewer app can import this converted EPUB file.
 
-For the best experience, disable the auto-shutdown feature of your eBook Reader and place it next to your keyboard to always few development notes.
+For the best experience, disable the auto-shutdown feature of your eBook Reader and place it next to your keyboard to always show your development notes.
 
 ![Ebook Reader](/doc/images/ebook-keyboard.jpg)
 *Photo by Megafilm on Freepik*
