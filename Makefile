@@ -15,12 +15,13 @@ all:
 
 # Recipe for converting a Markdown file into PDF using Pandoc
 	mkdir -p $(output)
+
 	pandoc \
 		-f markdown \
 		--metadata-file=doc/metadata.yml \
 		--table-of-contents \
 		--toc-depth=3 \
-		-o dist/dev-notes.epub \
+		-o $(output)/dev-notes.epub \
 		$(source)/dev-notes.md
 
 .PHONY : all clean
