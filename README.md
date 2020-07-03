@@ -1,4 +1,5 @@
-# dev-notebook
+# Developer Notebook
+
 ![GitHub Logo](/doc/images/ebook-keyboard.jpg)
 *Photo by Megafilm on Freepik*
 

@@ -6,13 +6,6 @@ rights: © 2020 Marco Koch
 language: en
 abstract: This is my personal developer notebook. This can be used together with an ebook reader.
 date: 2020-07-01
-
-# Format
-fontsize: 12pt
-mainfont: "Ubuntu"
-sansfont: "Roboto Condensed"
-monofont: "Ubuntu Mono"
-geometry: a5paper
 ---
 
 # Developer Notebook
