@@ -4,8 +4,9 @@ Developer Notebook
 
 <p align="center">
 
-[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
-[![Build Status](https://travis-ci.org/markoch/dev-notebook.svg?branch=master)](https://travis-ci.org/markoch/dev-notebook)
+<a href="https://github.com/markoch/dev-notebook/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/markoch/dev-notebook?style=flat"></a>
+<a href="http://commonmark.org" title="Made with Markdown"><img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg"></a>
+<a href="https://travis-ci.org/markoch/dev-notebook" title="Build Status"><img src="https://travis-ci.org/markoch/dev-notebook.svg?branch=master"></a>
 
 </p>
 
