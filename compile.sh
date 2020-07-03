@@ -1,1 +1,0 @@
-pandoc -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3

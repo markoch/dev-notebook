@@ -11,7 +11,7 @@ These daily development notes are published as a small ebook that can be importe
 
 ## Getting Started
 
-Clone this GIT repository. To create the ebook you can executed the attached `compile.sh` shell script or execute the following comnmand line.
+Clone this GIT repository. To create the ebook you can executed `make` or execute the following comnmand line.
 
 ````shell
 pandoc -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
@@ -22,6 +22,7 @@ Afterwards the `dev-notes.epub` will be located in the `dist` subfolder.
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com) - Editor
+* [GNU Make](https://www.gnu.org/software/make)
 * [Pandoc](https://pandoc.org) - Convert markdown to epub
 
 ## Contributing
