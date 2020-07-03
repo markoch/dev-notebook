@@ -17,7 +17,8 @@ These daily development notes are published as a small ebook that can be importe
 
 ### Prerequisites
 
-* [Pandoc](https://pandoc.org)
+* [GNU Make](https://www.gnu.org/software/make) -  Build-Management-Tool
+* [Pandoc](https://pandoc.org) - Convert markdown to epub
 
 ### Getting Started
 
@@ -32,8 +33,6 @@ Afterwards the `dev-notes.epub` will be located in the `dist` subfolder.
 ### Built With
 
 * [Visual Studio Code](https://code.visualstudio.com) - Editor
-* [GNU Make](https://www.gnu.org/software/make) -  Build-Management-Tool
-* [Pandoc](https://pandoc.org) - Convert markdown to epub
 
 ## Contributing
 
