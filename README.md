@@ -1,22 +1,24 @@
+<center>
+
 # Developer Notebook
-
-![GitHub Logo](/doc/images/ebook-keyboard.jpg)
-*Photo by Megafilm on Freepik*
-
-These daily development notes are published as a small ebook that can be imported to your ebook reader. You can place your ebook reader next to your keyboard for a simplified access to your notes.
-
-<p align="center">
 
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![Build Status](https://travis-ci.org/markoch/dev-notebook.svg?branch=master)](https://travis-ci.org/markoch/dev-notebook)
 
-</p>
+</center>
 
-## Prerequisites
+These daily development notes are published as a small ebook that can be imported to your ebook reader. You can place your ebook reader next to your keyboard for a simplified access to your notes.
+
+![Ebook Reader](/doc/images/ebook-keyboard.jpg)
+*Photo by Megafilm on Freepik*
+
+## Development
+
+### Prerequisites
 
 * [Pandoc](https://pandoc.org)
 
-## Getting Started
+### Getting Started
 
 Clone this GIT repository. To create the ebook you can executed `make` or execute the following comnmand line.
 
@@ -26,7 +28,7 @@ pandoc -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md 
 
 Afterwards the `dev-notes.epub` will be located in the `dist` subfolder.
 
-## Built With
+### Built With
 
 * [Visual Studio Code](https://code.visualstudio.com) - Editor
 * [GNU Make](https://www.gnu.org/software/make) -  Build-Management-Tool
