@@ -1,3 +1,5 @@
 os: linux
-language: c
+addons:
+  apt_packages:
+    - pandoc
 script: make
