@@ -14,6 +14,7 @@ output := dist
 all:
 
 # Recipe for converting a Markdown file into PDF using Pandoc
+	mkdir -p $(output)
 	pandoc \
 		-f markdown \
 		--metadata-file=doc/metadata.yml \
