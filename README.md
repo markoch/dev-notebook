@@ -19,6 +19,11 @@ pandoc -s -o dist/dev-notes.epub doc/dev-notes.md --toc --toc-depth=3
 
 Afterwards the `dev-notes.epub` will be located in the `dist` subfolder.
 
+## Built With
+
+* [Visual Studio Code](https://code.visualstudio.com) - Editor
+* [Pandoc](https://pandoc.org) - Convert markdown to epub
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
