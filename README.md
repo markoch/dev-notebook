@@ -8,7 +8,9 @@ Developer Notebook
 <a href="https://travis-ci.org/markoch/dev-notebook" title="Build Status"><img src="https://travis-ci.org/markoch/dev-notebook.svg?branch=master"></a>
 </p>
 
-These daily development notes are published as a small ebook that can be imported to your ebook reader. You can place your ebook reader next to your keyboard for a simplified access to your notes.
+The personal development notes are written in Markdown format and are published as an ebook that can be imported to your ebook reader. 
+
+For best experience disable the auto shutdown feature of your ebook reader and place it next to your keyboard to always few your development notes.
 
 ![Ebook Reader](/doc/images/ebook-keyboard.jpg)
 *Photo by Megafilm on Freepik*
