@@ -1,5 +1,9 @@
-os: linux
-addons:
-  apt_packages:
-    - pandoc
+matrix:
+    include:
+        # macOS generic
+        - os: osx
+          language: generic
+          before_install:
+              - brew install pandoc
+os: osx
 script: make
