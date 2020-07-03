@@ -30,7 +30,7 @@ Clone this GIT repository. To create the eBook, you can execute `make` or the fo
 pandoc -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
 ````
 
-The `dist` folder will then contain the converted `dev-notes.epub` file.
+The `dist` folder will then contain the converted `dev-notes.epub` file. Import `dev-notes.epub` file into your eBook reader or open it in an eBook viewer app.
 
 ### Built With
 
