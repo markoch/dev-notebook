@@ -3,7 +3,7 @@
 ![GitHub Logo](/doc/images/ebook-keyboard.jpg)
 *Photo by Megafilm on Freepik*
 
-These daily development notes are published as a small ebook. This ebook can be imported into your ebook reader that is located next to your keyboard.
+These daily development notes are published as a small ebook that can be imported to your ebook reader. You can place your ebook reader next to your keyboard for a simplified access to your notes.
 
 ## Prerequisites
 
