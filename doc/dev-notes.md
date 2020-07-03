@@ -2,8 +2,6 @@
 
 This is my Developer Notebook!
 
-t.b.d.
-
 # Code Review Process
 
 ## The Light Pass
