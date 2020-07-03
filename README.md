@@ -1,11 +1,13 @@
-<center>
+<h1 align="center">
+Developer Notebook
+</h1>
 
-# Developer Notebook
+<p align="center">
 
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![Build Status](https://travis-ci.org/markoch/dev-notebook.svg?branch=master)](https://travis-ci.org/markoch/dev-notebook)
 
-</center>
+</p>
 
 These daily development notes are published as a small ebook that can be imported to your ebook reader. You can place your ebook reader next to your keyboard for a simplified access to your notes.
 
