@@ -19,7 +19,7 @@ all:
 	pandoc \
 		-f markdown \
 		--metadata-file=doc/metadata.yml \
-		--table-of-contents \
+		--toc \
 		--toc-depth=3 \
 		-o $(output)/dev-notes.epub \
 		$(source)/dev-notes.md
