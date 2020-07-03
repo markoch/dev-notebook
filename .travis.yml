@@ -4,7 +4,7 @@ matrix:
         - os: osx
           language: generic
           before_install:
-              - brew update
               - brew install pandoc
 os: osx
+language: node_js
 script: make
