@@ -22,7 +22,7 @@ For the best experience, disable the auto-shutdown feature of your eBook Reader 
 * [GNU Make](https://www.gnu.org/software/make) -  Build-Management-Tool
 * [Pandoc](https://pandoc.org) - Convert markdown to epub
 
-#### Generate PDF
+#### Required for converting to PDF format
 
 * [Xelatex](http://www.texts.io/download) - Convert Markdown to PDF file format
 * [Dejavu Sans](https://github.com/dejavu-fonts/dejavu-fonts) - Font
