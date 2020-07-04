@@ -24,7 +24,17 @@ all:
 		-o $(output)/dev-notes.epub \
 		$(source)/dev-notes.md
 
+	pandoc \
+		-f markdown \
+		--metadata-file=doc/metadata.yml \
+		--toc \
+		--toc-depth=3 \
+		--pdf-engine=xelatex \
+		-o $(output)/dev-notes.pdf \
+		$(source)/dev-notes.md
+
 .PHONY : all clean
 
 clean:
 	rm -f $(output)/*.epub
+	rm -f $(output)/*.pdf

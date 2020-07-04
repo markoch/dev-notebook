@@ -22,15 +22,33 @@ For the best experience, disable the auto-shutdown feature of your eBook Reader 
 * [GNU Make](https://www.gnu.org/software/make) -  Build-Management-Tool
 * [Pandoc](https://pandoc.org) - Convert markdown to epub
 
+#### Generate PDF
+
+* [Xelatex](http://www.texts.io/download) - Convert Markdown to PDF file format
+* [Dejavu Sans](https://github.com/dejavu-fonts/dejavu-fonts) - Font
+
 ### Getting Started
 
-Clone this GIT repository. To create the eBook, you can execute `make` or the following command line:
+1. Clone this GIT repository.
+````shell
+git clone https://github.com/dejavu-fonts/dejavu-fonts.git
+````
+
+2. To create the EPUB file, you can execute `make` or the following command line:
 
 ````shell
-pandoc -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
+pandoc -f markdown -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
 ````
 
 The `dist` folder will then contain the converted `dev-notes.epub` file. Import `dev-notes.epub` file into your eBook reader or open it in an eBook viewer app.
+
+3. To create the PDF file, you can execute `make` or the following command line:
+
+````shell
+pandoc -f markdown -o dist/dev-notes.pdf --pdf-engine=xelatex --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
+````
+
+The `dist` folder will then contain the converted `dev-notes.pdf` file. Import `dev-notes.epub` file into your eBook reader or open it in an eBook viewer app.
 
 ### Built With
 
