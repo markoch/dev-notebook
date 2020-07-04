@@ -24,6 +24,7 @@ all:
 		-o $(output)/dev-notes.epub \
 		$(source)/dev-notes.md
 
+pdf:
 	pandoc \
 		-f markdown \
 		--metadata-file=doc/metadata.yml \
