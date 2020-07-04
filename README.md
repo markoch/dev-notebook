@@ -4,8 +4,8 @@ Developer Notebook
 
 <p align="center">
 <a href="http://commonmark.org" title="Made with Markdown"><img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg"></a>
-<a href="https://github.com/markoch/dev-notebook/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/markoch/dev-notebook?style=flat"></a>
-<a href="https://travis-ci.org/markoch/dev-notebook" title="Build Status"><img src="https://travis-ci.org/markoch/dev-notebook.svg?branch=master"></a>
+<a href="https://github.com/markoch/developer-notebook/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/markoch/developer-notebook?style=flat"></a>
+<a href="https://travis-ci.org/markoch/developer-notebook" title="Build Status"><img src="https://travis-ci.org/markoch/developer-notebook.svg?branch=master"></a>
 </p>
 
 The development notes are written in Markdown format and converted to an EPUB file. Your eBook reader or viewer app can import this converted EPUB file.
