@@ -29,14 +29,14 @@ For the best experience, disable the auto-shutdown feature of your eBook Reader 
 
 ### Getting Started
 
-1. Clone this GIT repository.
-````shell
+1. Clone this GIT repository:
+````sh
 git clone https://github.com/dejavu-fonts/dejavu-fonts.git
 ````
 
 2. To create the EPUB file, you can execute `make` or the following command line:
 
-````shell
+````sh
 pandoc -f markdown -o dist/dev-notes.epub --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
 ````
 
@@ -44,7 +44,7 @@ The `dist` folder will then contain the converted `dev-notes.epub` file. Import 
 
 3. To create the PDF file, you can execute `make` or the following command line:
 
-````shell
+````sh
 pandoc -f markdown -o dist/dev-notes.pdf --pdf-engine=xelatex --metadata-file=doc/metadata.yml doc/dev-notes.md --toc --toc-depth=3
 ````
 
